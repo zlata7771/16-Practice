@@ -1,0 +1,21 @@
+start
+new name string
+set name "Zlata"
+new surname string
+set surname "Kaukina"
+new patronymic string
+set patronymic "Victorovna"
+new num string
+set num "0000 0000 0000 0000"
+new cvv string
+set cvv "000"
+new data string
+set data "00/00"
+log string "-----------------------------------------"
+log string "|	">>num>>"		|"
+log string "|	data: " >> data >> "			|"
+log string "|	CVV: " >> cvv >> "			|"
+log string "|					|"
+log string "|	" >> name >> " " >> surname >> " " >> patronymic >> "		|"
+log string "-----------------------------------------"
+finish
