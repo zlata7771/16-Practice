@@ -1,0 +1,12 @@
+start
+new chislo number
+set chislo 2
+new k number
+set k 1
+log string "1 * 1 = 1"
+new counter string
+loop counter (11 > chislo)
+    log string "1 * " >> chislo >> " = " >> chislo
+    set chislo chislo+1
+end counter
+finish
