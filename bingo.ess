@@ -1,0 +1,13 @@
+start
+new b string
+set b "B"
+new i string
+set i "I"
+new n string
+set n "N"
+new g string
+set g "G"
+new o string
+set o "O"
+log string b>> "-">>i>>"-">>n>>"-">>g>>"-">>o
+finish
